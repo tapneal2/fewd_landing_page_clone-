@@ -41,3 +41,92 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+body{
+	background-color: LightGray;
+	font-family: 'Roboto', sans-serif; 
+	font-size: 16px; 
+	color: #838994; 
+	letter-spacing: 0.03em;
+}
+div{
+	border: 5px solid Chocolate;
+}
+
+/* Navigation section */
+
+
+.content{
+    padding: 0 30rem;
+    margin: 0 auto;
+    min-width: 37.5rem;
+}
+
+.big-button{
+	text-shadow: none;
+    border-style: none;
+    border-radius: 4px;
+    padding: 16px 26px;
+    line-height: 1.33;
+    margin: 20px;
+    color: red;
+    background-color: orange;
+    font-size: 150% 
+}
+
+.big-button:hover {
+    background-color: blue;
+    border-color: #cf3d0e;
+    cursor: pointer;
+}
+
+.top-navigation {
+    background-color: #fff;
+    width: 100%;
+    border-bottom: 2px solid #DDD;
+}
+
+
+.top-navigation .logo {
+    height: 2.375rem;
+}
+
+.top-navigation > .content {
+    height: 4.375rem;
+}
+
+.top-navigation .links {
+    float: right;
+    color: #838994;
+    font-size: 1.04rem;
+    margin-top: 1.7rem;
+}
+
+.top-navigation .links li {
+    display: inline-block;
+    margin-left: 1.563rem;
+}
+.top-navigation .links li.active {
+    color: #4c5058;
+    font-weight: 500;
+}
+.top-navigation .links li:hover {
+    cursor: pointer;
+    color: #333333;
+}
+
+.introduction {
+    background-image: url('../images/first-background.jpg');
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45.938rem;
+}
+
+.introduction .content{
+	color: #FFFFFF;
+	height: 140px;
+	text-align: center;
+	
+}
+
